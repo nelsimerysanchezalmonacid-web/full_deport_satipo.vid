@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FULL DEPORT - La marca que viste a los campeones.</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+
+    <!-- Menú de Navegación -->
+    <header>
+        <div class="logo">
+            <img src="IMG/FULLDEPORT 1.png" alt="FULL DEPORT" style="height: 35px; vertical-align: middle; margin-right: 8px;">
+            FULL <span>DEPORT</span>
+        </div>
+        
+        <!-- Botón Menú Hamburguesa para Celulares -->
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contenido">Catálogos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Inicio / Hero con Video de Fondo -->
+    <section id="inicio" class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="videos/fondo.mp4" type="video/mp4">
+        </video>
+        
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <h1>FULL <span>DEPORT</span></h1>
+            <p>La marca que viste a los campeones</p>
+            <a href="#contenido" class="btn-primary">Ver Catálogos</a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE VIDEOS DE YOUTUBE -->
+<section class="videos-section" id="videos">
+    <div class="videos-container">
+
+        <!-- VIDEO 1 -->
+        <article class="video-card">
+            <div class="video">
+                <iframe src="https://www.youtube-nocookie.com/embed/sA8LeQDH-y4?rel=0&modestbranding=1" 
+                        title="Uniformes personalizados" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-info">
+                <h3>Uniformes personalizados</h3>
+                <p>Diseñamos uniformes personalizados para equipos, colegios y clubes.</p>
+            </div>
+        </article>
+
+        <!-- VIDEO 2 -->
+        <article class="video-card">
+            <div class="video">
+                <iframe src="https://www.youtube-nocookie.com/embed/jgNUPHFEn38?rel=0&modestbranding=1" 
+                        title="Ropa deportiva" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-info">
+                <h3>Ropa deportiva</h3>
+                <p>Encuentra camisetas, polos, shorts, casacas, buzos y otras prendas deportivas.</p>
+            </div>
+        </article>
+
+        <!-- VIDEO 3 -->
+        <article class="video-card">
+            <div class="video">
+                <iframe src="https://www.youtube-nocookie.com/embed/Ph4XE26m1mg?rel=0&modestbranding=1" 
+                        title="Accesorios deportivos" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-info">
+                <h3>Accesorios deportivos</h3>
+                <p>Complementa tu equipamiento con medias y accesorios deportivos para tus entrenamientos.</p>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+    <!-- Sección Contenido / Catálogos en PDF -->
+    <section id="contenido" style="background-color: #0f0f0f;">
+        <div class="section-header">
+            <span>Catálogos Oficiales</span>
+            <h2>Descarga nuestros catálogos</h2>
+            <p>Revisa las colecciones completas para damas, varones, niños y accesorios.</p>
+        </div>
+        <div class="grid-3">
+            <div class="content-card">
+                <div class="catalog-img-container">
+                    <img src="IMG/damas.jpg" alt="Catálogo Damas" class="catalog-thumb">
+                </div>
+                <h3>Catálogo Damas</h3>
+                <p>Indumentaria deportiva cómoda y con estilo diseñada para mujeres campeonas.</p>
+                <a href="PDF/catalogo_damas.pdf" target="_blank" class="btn-primary" style="margin-top: 15px; padding: 10px 20px; font-size: 0.8rem;">Ver</a>
+            </div>
+            <div class="content-card">
+                <div class="catalog-img-container">
+                    <img src="IMG/varones.jpeg" alt="Catálogo Varones" class="catalog-thumb">
+                </div>
+                <h3>Catálogo Varones</h3>
+                <p>Uniformes y conjuntos de alto rendimiento para torneos y competencias.</p>
+                <a href="PDF/catalogo_varones.pdf" target="_blank" class="btn-primary" style="margin-top: 15px; padding: 10px 20px; font-size: 0.8rem;">Ver</a>
+            </div>
+            <div class="content-card">
+                <div class="catalog-img-container">
+                    <img src="IMG/niños.jpg" alt="Catálogo Niños" class="catalog-thumb">
+                </div>
+                <h3>Catálogo Niños</h3>
+                <p>Equipamiento deportivo especial para las futuras promesas del deporte.</p>
+                <a href="PDF/catalogo_niños.pdf" target="_blank" class="btn-primary" style="margin-top: 15px; padding: 10px 20px; font-size: 0.8rem;">Ver</a>
+            </div>
+            <div class="content-card">
+                <div class="catalog-img-container">
+                    <img src="IMG/medias.jpg" alt="Catálogo Medias" class="catalog-thumb">
+                </div>
+                <h3>Catálogo Medias</h3>
+                <p>Accesorios esenciales y medias deportivas con máxima durabilidad.</p>
+                <a href="PDF/catalogo_medias.pdf" target="_blank" class="btn-primary" style="margin-top: 15px; padding: 10px 20px; font-size: 0.8rem;">Ver</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros">
+        <div class="about-section">
+            <div class="section-header" style="margin-bottom: 30px;">
+                <span>Conócenos</span>
+                <h2>Sobre Full Deport</h2>
+            </div>
+            <p>Somos una marca apasionada por el deporte, dedicada a fabricar indumentaria de alto rendimiento que acompaña a los atletas hacia la victoria.</p>
+            <p>Nuestro objetivo es ofrecer prendas cómodas, modernas y resistentes que representen con orgullo el espíritu y la garra de cada campeón.</p>
+        </div>
+    </section>
+
+    <!-- Sección Contacto Directo por WhatsApp -->
+    <section id="contacto" style="background-color: #0f0f0f; text-align: center;">
+        <div class="section-header">
+            <span>Comunícate Rápido</span>
+            <h2>Contacto Directo</h2>
+            <p>¿Quieres equipar a tu equipo o hacer un pedido personalizado? Escríbenos al instante por WhatsApp.</p>
+        </div>
+        <div style="max-width: 500px; margin: 0 auto; background-color: #141414; padding: 40px; border-radius: 16px; border: 1px solid #222;">
+            <p style="color: #aaa; margin-bottom: 25px; font-size: 1.05rem;">Atención inmediata para cotizaciones y pedidos deportivos en Satipo y Huancayo.</p>
+            <a href="https://wa.me/51914819222?text=Hola%20Full%20Deport,%20quiero%20información%20sobre%20uniformes%20y%20catálogos" target="_blank" class="btn-primary" style="display: inline-block; background-color: #25d366; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4); text-decoration: none;">
+                💬 Chatear por WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 FULL DEPORT. La marca que viste a los campeones. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Script para el Menú Hamburguesa -->
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.querySelector('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+            mobileMenu.classList.toggle('is-active');
+        });
+
+        // Cerrar menú al hacer clic en cualquier opción
+        document.querySelectorAll('.nav-list a').forEach(link => {
+            link.addEventListener('click', () => {
+                navList.classList.remove('active');
+                mobileMenu.classList.remove('is-active');
+            });
+        });
+    </script>
+</body>
+</html>
